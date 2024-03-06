@@ -1,0 +1,64 @@
+.fab-container {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.iconbutton {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.button {
+    height: 60px;
+    width: 60px;
+    
+}
+
+.button img {
+    height: 32px;
+    width: 32px;
+}
+
+ 
+.iconbutton img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    color: white;
+    
+}
+
+.options {
+    list-style-type: none;
+    position: absolute;
+    bottom: 70px;
+    right: 5px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.options li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+}
+.btn-label{
+    width: 172px;
+    height: 34px;
+    padding: 6px 16px;
+    user-select: none;
+    background: rgba(248, 248, 248, 1);
+    color: black;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.button:hover+.options, .options:hover {
+    opacity: 1;
+}

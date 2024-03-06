@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.userAnswer-container {
+    width: 832px;
+    width: 832px;
+    padding: 16px 32px;
+    border-radius: 6px;
+    border: 0.4px;
+    gap: 16px;
+    background-color: rgba(222, 231, 255, 1);
+    border: 0.4px solid rgba(151, 149, 149, 1);
+    box-shadow: 8px 8px 25px 0px rgba(0, 0, 0, 0.5);
+    color: rgba(15, 15, 15, 1);
+    margin-left: 25%;
+    margin-bottom: 0px;
+    .answer-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .edit {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                padding-left: 10px;
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+        }
+
+        .user-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .user-img {
+                height: 50px;
+                width: 50px;
+                object-fit: contain;
+
+            }
+
+            .details {
+                margin-left: 10px;
+                display: grid;
+                justify-content: space-between;
+                align-items: center;
+
+                .name {
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+
+                .date {
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+            }
+        }
+    }
+
+    .answer {
+        margin-top: 10px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        p {
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            .bold {
+                font-weight: 700;
+            }
+
+            .light {
+                color: rgb(171, 171, 171);
+            }
+        }
+    }
+
+    .footer {
+        width: 748px;
+        height: 34px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .like {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            flex-grow: 2;
+            span {
+                padding: 0px 10px;
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+        }
+
+        .post {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .msg-logo {
+                display: flex;
+                align-items: center;
+            }
+
+            .search {
+                margin-left: 8px;
+                width: 478px;
+                height: 41px;
+                padding: 10px;
+                border-radius: 6px;
+                border: 1px;
+                background-color: rgba(222, 231, 255, 1);
+                display: flex;
+                align-items: center;
+                border: 1px solid rgba(15, 15, 15, 1);
+
+                .searchTerm {
+                    background-color: transparent;
+                    border: none;
+                    
+                }
+
+            }
+
+            .button {
+                margin-left: 12px;
+                border-radius: 6px;
+                padding: 8px 16px;
+                border: 1px solid rgba(15, 15, 15, 1);
+                height: 42px;
+                button {
+                    background-color: transparent;
+                    color: rgb(158, 155, 155);
+                    border: none;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+            }
+        }
+    }
+}
+
+::placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(151, 149, 149, 1);
+}
