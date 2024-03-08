@@ -37,11 +37,11 @@ export const AnswerContent = () => {
                     <div className="msg-logo">
                         <RiMessage2Line size={40}/>
                     </div>
-                    <div class="search">
-                        <input type="text" class="searchTerm" placeholder="Add a Comment" />
+                    <div className="search">
+                        <input type="text" className="searchTerm" placeholder="Add a Comment" />
                     </div>
                     <div className="button">
-                        <button type="submit" class="searchButton">Post</button>
+                        <button type="submit" className="searchButton">Post</button>
                     </div>
                 </div>
             </div>

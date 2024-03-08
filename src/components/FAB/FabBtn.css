@@ -59,6 +59,12 @@
     margin-right: 5px;
 }
 
-.button:hover+.options, .options:hover {
+.options.on {
     opacity: 1;
 }
+
+.options.off {
+    opacity: 0;
+}
+
+

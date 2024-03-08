@@ -1,14 +1,25 @@
 import React from 'react'
 import './FabBtn.css';
+import { useState } from 'react';
+
 export const FabBtn = () => {
+
+  const [fabToggle,setFabToggle] = useState(false);
+
+  const fabButtonToggle = () => {
+    setFabToggle(!fabToggle);
+    console.log("fc",fabToggle)
+  }
+  
   return (
 
     <div className="fab-container">
-      <div className="button iconbutton">
-        <img src="/src/assets/fabOpen.png" alt="open" />
+      <div onClick={fabButtonToggle}  className='button iconbutton' >
+        {fabToggle ? <img src="/src/assets/fab-close.png" alt="" /> : <img src="/src/assets/fabOpen.png" alt="" /> }
+          
       </div>
-
-      <ul className="options">
+       
+      <ul className={`options ${fabToggle ? "on" : "off"}`} >
         <li>
           <span className='btn-label'>Report an Issue</span>
           <span className='iconbutton'>
