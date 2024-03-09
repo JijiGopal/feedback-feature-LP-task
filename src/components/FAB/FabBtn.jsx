@@ -42,7 +42,7 @@ export const FabBtn = () => {
         </li>
 
         <li>
-          <span className='btn-label'>Contact Us</span>
+          <span className='btn-label contact'>Contact Us</span>
           <span className='iconbutton'>
             <img src="/src/assets/fab-contact.png" alt="" />
           </span>

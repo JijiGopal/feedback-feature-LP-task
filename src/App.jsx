@@ -12,12 +12,10 @@ function App() {
  
   return (
     <>
-        {/* <Navbar/>
+        <Navbar/>
         <BackToQuestions/>
-        <LandingPage/> */}
+        <LandingPage/>
          <FabBtn/>
-         {/* <ReportIssues/> */}
-         <ContactUs/>
     </>
   )
 }
