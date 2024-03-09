@@ -1,6 +1,7 @@
   
 import './App.css'
 import { BackToQuestions } from './components/BackToQuestions/BackToQuestions'
+import { ContactUs } from './components/ContactUs/ContactUs'
 import { FabBtn } from './components/FAB/FabBtn'
 import { Feedback } from './components/Feedback/Feedback'
 import { Navbar } from './components/Navbar/Navbar'
@@ -16,7 +17,7 @@ function App() {
         <LandingPage/> */}
          <FabBtn/>
          {/* <ReportIssues/> */}
-         <Suggestion/>
+         <ContactUs/>
     </>
   )
 }

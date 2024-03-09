@@ -10,9 +10,9 @@ export const Suggestion = () => {
             </div>
             <div className="suggestion-form">
                 <form>
-                    <label htmlForfor="suggestion-select" >Interview Questions</label> <br />
+                    <label htmlForfor="suggestion-select" >Choose a section</label> <br />
                     <select id="suggestion-select">
-                        <option value="">Interview Questions</option>
+                        <option value="">Select</option>
                     </select> <br />
                     <label htmlFor="message">Describe the issue in detail <span>*</span></label> <br />
                     <div class="textarea-with-attachment">
